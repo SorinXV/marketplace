@@ -12,6 +12,8 @@ export default function CardsLayout({ details }) {
                             title={e.title}
                             description={e.description}
                             img={e.imageUrl}
+                            retailer_name = {e.retailer_name}
+                            retailer_contact = {e.retailer_name}
                             key={e.title}
                         />
                     )
