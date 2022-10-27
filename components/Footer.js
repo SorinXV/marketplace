@@ -1,3 +1,5 @@
-export default function About() {
-  return <>footer</>;
+export default function Footer() {
+  return <>
+  Footer
+  </>;
 }
