@@ -54,7 +54,7 @@ export default function Card({ title, description, img , retailer_name , retaile
 setPagination(val);
  
  document.querySelector('.paginations').childNodes.forEach((e)=>{
-e.classList.toggle("bg-red-600")
+e.classList.toggle("bg-black")
 e.classList.toggle("bg-gray-600")
  } )
 
@@ -70,7 +70,7 @@ const item = <Breif/>
                 
 {render}
                 <div className='paginations | flex w-full justify-center items-center gap-3'>
-                    <section className='pagination | w-2 h-2 bg-red-600 rounded-full hover:opacity-70' onClick={(e)=> handleChange(e , 1)}></section>
+                    <section className='pagination | w-2 h-2 bg-black rounded-full hover:opacity-70' onClick={(e)=> handleChange(e , 1)}></section>
                     <section className='pagination | w-2 h-2 bg-gray-600 rounded-full hover:opacity-70' onClick={(e) =>handleChange(e , 2)}></section>
                 </div>
             </div>

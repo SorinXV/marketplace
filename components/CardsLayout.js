@@ -4,7 +4,7 @@ import Card from './Card'
 export default function CardsLayout({ details }) {
 
     return (
-        <div className='cards__container | grid grid-cols-3 w-[60%] gap-6 mx-auto '>
+        <div className='cards__container | grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 w-[60%] gap-6 mx-auto '>
             {
                 details.map((e) => {
                     return (
