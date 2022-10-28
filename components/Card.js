@@ -27,14 +27,6 @@ export default function Card({ title, description, img , retailer_name , retaile
     </>
         )
     }
-
-    const Detailed = ()=> {
-        return(
-        <div className='card__descritpion | max-w-[40ch] mb-12 py-1'>
-            {description}
-        </div>
-        )
-        }
         const RetailerInfo =()=> {
          return(
          <>
@@ -54,9 +46,6 @@ export default function Card({ title, description, img , retailer_name , retaile
             render = <Breif/>
             break;
     case 2:
-        render = <Detailed/>
-        break;
-        case 3:
             render = <RetailerInfo/>
             break;
     }
@@ -65,10 +54,9 @@ export default function Card({ title, description, img , retailer_name , retaile
 setPagination(val);
  
  document.querySelector('.paginations').childNodes.forEach((e)=>{
-e.classList.remove("bg-red-600")
-e.classList.add("bg-gray-600")
+e.classList.toggle("bg-red-600")
+e.classList.toggle("bg-gray-600")
  } )
-e.target.classList.add("bg-red-600");
 
     }
 
@@ -84,7 +72,6 @@ const item = <Breif/>
                 <div className='paginations | flex w-full justify-center items-center gap-3'>
                     <section className='pagination | w-2 h-2 bg-red-600 rounded-full hover:opacity-70' onClick={(e)=> handleChange(e , 1)}></section>
                     <section className='pagination | w-2 h-2 bg-gray-600 rounded-full hover:opacity-70' onClick={(e) =>handleChange(e , 2)}></section>
-                    <section className='pagination | w-2 h-2 bg-gray-600 rounded-full hover:opacity-70' onClick={(e)=>handleChange(e , 3)}></section>
                 </div>
             </div>
         </div>
