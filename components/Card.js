@@ -17,7 +17,7 @@ export default function Card({
           <h1>{title}</h1>
         </div>
         <div className="card__descritpion | max-w-[40ch]">
-          {description.slice(0, 90)}
+          {description.slice(0, 69)}
         </div>
         <Link href={`items/${title}?cardName=${title}`}>
           <button className="card__btn | px-4 py-1 bg-green-500 text-white rounded border-none self-end hover:opacity-70">
@@ -33,9 +33,15 @@ export default function Card({
         <div className="card__title | px-4 py-1 mt-6">
           <h1>Name : {retailer_name}</h1>
         </div>
-        <div className=" px-4 py-1 rounded border-none mb-16">
+        <div className=" px-4 py-1 rounded border-none ">
           Retailer contact : {retailer_contact}
         </div>
+        <Link href={`items/${title}?cardName=${title}`}>
+          <button className="card__btn | px-4 py-1 mt-2 bg-green-500 text-white rounded border-none self-end hover:opacity-70">
+            see more
+          </button>
+        </Link>
+
       </>
     )
   }
@@ -61,9 +67,9 @@ export default function Card({
 
   const item = <Breif />
   return (
-    <div className="card | shadow-md">
+    <div className="card | shadow-md hover:shadow-lg hover:scale-105 transition-all">
       <div className="card__image">
-        <img className="w-full" src={img}></img>
+        <img className="w-full h-60 object-cover " src={img}></img>
       </div>
       <div className="card__body| flex flex-col gap-6 justify-center items-start p-2">
         {render}
