@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 
 export default function Card({
   title,
@@ -68,7 +69,9 @@ export default function Card({
   return (
     <div className="card | shadow-md hover:shadow-lg hover:scale-105 transition-all">
       <div className="card__image">
-        <Image className="w-full h-60 object-cover " src={img}></Image>
+        <img className="w-full h-60 object-cover "
+         src={img}
+         layout="fill"></img>
       </div>
       <div className="card__body| flex flex-col gap-6 justify-center items-start p-2">
         {render}
