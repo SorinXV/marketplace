@@ -60,8 +60,7 @@ export default function Card({
     setPagination(val)
 
     document.querySelector('.paginations').childNodes.forEach((e) => {
-      e.classList.toggle('bg-black')
-      e.classList.toggle('bg-gray-600')
+      
     })
   }
 
@@ -75,7 +74,7 @@ export default function Card({
         {render}
         <div className="paginations | flex w-full justify-center items-center gap-3">
           <section
-            className="pagination | w-2 h-2 bg-black rounded-full hover:opacity-70"
+            className="pagination | w-2 h-2 bg-gray-600 rounded-full hover:opacity-70"
             onClick={(e) => handleChange(e, 1)}
           ></section>
           <section
