@@ -1,5 +1,9 @@
 import "../styles/globals.css";
+import "../styles/homepage.css";
+import "../styles/text.css";
+import '.././components/footer.css'
 import Layout from "../components/Layout";
+
 function MyApp({ Component, pageProps }) {
   return (
     <div>
