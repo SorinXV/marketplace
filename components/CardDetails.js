@@ -8,7 +8,7 @@ export default function CardDetails(props) {
     <div className='flex w-[80%] mx-auto gap-5 mt-5'>
     <article className='card | flex flex-col gap-2  justify-center items-center'>
 <div className='card-top | '>
- <img className='w-full' src={imageUrl}></img>
+ <Image className='w-full' src={imageUrl}></Image>
     </div>            
     <div className='card-body | flex gap-3 w-full justify-center items-center '>
 <CardModal color="rgb(239 68 68)" text="Add now"/>

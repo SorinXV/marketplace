@@ -68,7 +68,7 @@ export default function Card({
   return (
     <div className="card | shadow-md hover:shadow-lg hover:scale-105 transition-all">
       <div className="card__image">
-        <img className="w-full h-60 object-cover " src={img}></img>
+        <Image className="w-full h-60 object-cover " src={img}></Image>
       </div>
       <div className="card__body| flex flex-col gap-6 justify-center items-start p-2">
         {render}
