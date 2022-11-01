@@ -10,9 +10,12 @@ export default function explore({ cardDetails }) {
     </>
   )
 }
-export async function getServerSideProps() {
+
+
+export async function getStaticProps() {
   const res = await fetch('http://localhost:3000/api/cardIndex')
   const data = await res.json()
 
   return { props: { cardDetails: data } }
 }
+
