@@ -20,7 +20,7 @@ export default function Card({
         <div className="card__descritpion | max-w-[40ch]">
           {description.slice(0, 69)}
         </div>
-        <Link href={`items/${title}?cardName=${title}`}>
+        <Link href={`/items/${title}`}>
           <button className="card__btn | px-4 py-1 bg-green-500 text-white rounded border-none self-end hover:opacity-70">
             see more
           </button>
@@ -37,7 +37,7 @@ export default function Card({
         <div className=" px-4 py-1 rounded border-none ">
           Retailer contact : {retailer_contact}
         </div>
-        <Link href={`items/${title}?cardName=${title}`}>
+        <Link href={`/items/${title}`}>
           <button className="card__btn | px-4 py-1 mt-2 bg-green-500 text-white rounded border-none self-end hover:opacity-70">
             see more
           </button>
