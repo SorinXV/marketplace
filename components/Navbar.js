@@ -4,13 +4,13 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <nav className="w-full bg-purple-500 shadow">
+    <nav className="w-full bg-purple-600">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <li className="m-2 font-extrabold text-white">
-                Market<span className="green-color font-black">Place</span>
+              <li className="m-2 font-extrabold text-white secondary-title">
+                Market<span className="text-emerald-300 font-black secondary-title">Place</span>
               </li>
             </a>
             <div className="md:hidden">
@@ -60,22 +60,22 @@ export default function NavBar() {
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white hover:green-color">
                 <Link href="/">
-                  <a className='font-bold'>Home</a>
+                  <a className='font-black hover:text-emerald-400'>Home</a>
                 </Link>
               </li>
               <li className="text-white hover:green-color">
                 <Link href="/explore">
-                  <a className='font-bold'>Explore</a>
+                  <a className='font-black hover:text-emerald-400'>Explore</a>
                 </Link>
               </li>
               <li className="text-white hover:green-color">
                 <Link href="/saved">
-                  <a className='font-bold'>Saved</a>
+                  <a className='font-black hover:text-emerald-400'>Saved</a>
                 </Link>
               </li>
               <li className="text-white hover:green-color">
                 <Link href="/help">
-                  <a className='font-bold'>Help</a>
+                  <a className='font-black hover:text-emerald-400'>Help</a>
                 </Link>
               </li>
             </ul>

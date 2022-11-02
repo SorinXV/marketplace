@@ -1,5 +1,6 @@
 import React from 'react';
 import CardModal from './CardModal';
+import Image from 'next/image';
 
 export default function CardDetails(props) {
   let details = props.details

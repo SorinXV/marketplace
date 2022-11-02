@@ -17,7 +17,7 @@ and run
 npm run dev
 ```
 
-To simply view the current webapp click [here](https://marketplace-7ck7wz691-sorinxv.vercel.app/).
+To simply view the current webapp click [here](https://marketplace-aiqyk6rbw-sorinxv.vercel.app/).
 
 -----
 

@@ -1,0 +1,25 @@
+.not-selectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .big-title{
+    font-size: 2.55rem;
+  }
+  .title {
+    font-size: 1.85rem;
+  }
+  .mobile-title{
+    font-size: 1.5rem;
+  }
+  .secondary-title {
+    font-size: 1.2rem;
+  }
+  .secondary-mobile-title{
+    font-size: 1rem;
+  }
+  .paragraph {
+    font-size: 1.15rem;
+  }
