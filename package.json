@@ -10,10 +10,17 @@
   },
   "dependencies": {
     "framer-motion": "^7.6.1",
+<<<<<<< HEAD
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swr": "^1.3.0"
+=======
+    "html-loader": "1.0.0-alpha.0",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+>>>>>>> cf0fb9562bbaa1aab7edba3042b441dfd357c2a0
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",

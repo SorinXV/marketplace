@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 
 export default function Card({
   title,
@@ -60,8 +61,7 @@ export default function Card({
     setPagination(val)
 
     document.querySelector('.paginations').childNodes.forEach((e) => {
-      e.classList.toggle('bg-black')
-      e.classList.toggle('bg-gray-600')
+      
     })
   }
 
@@ -69,13 +69,15 @@ export default function Card({
   return (
     <div className="card | shadow-md hover:shadow-lg hover:scale-105 transition-all">
       <div className="card__image">
-        <img className="w-full h-60 object-cover " src={img}></img>
+        <img className="w-full h-60 object-cover "
+         src={img}
+         layout="fill"></img>
       </div>
       <div className="card__body| flex flex-col gap-6 justify-center items-start p-2">
         {render}
         <div className="paginations | flex w-full justify-center items-center gap-3">
           <section
-            className="pagination | w-2 h-2 bg-black rounded-full hover:opacity-70"
+            className="pagination | w-2 h-2 bg-gray-600 rounded-full hover:opacity-70"
             onClick={(e) => handleChange(e, 1)}
           ></section>
           <section

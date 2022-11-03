@@ -9,7 +9,7 @@ export default   function CardsLayout() {
     if (!data) return <div>Loading...</div>;
     let items = JSON.parse(data)
     return (
-        <div className='cards__container | grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 w-[80%] gap-6 mx-auto mt-5'>
+        <div className='cards__container | grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 w-[90%] gap-6 mx-auto mt-5 '>
             {
                     items.map((e) => {
                     return (
