@@ -1,9 +1,4 @@
-
-# MarketPlace
-MarketPlace's a project that allows users to to sell items to local buyers.
-<br /> The project was developed using...
-
-# Project Installation
+## Project Installation
 
 To run the project clone the repository
 
@@ -23,5 +18,5 @@ To simply view the current webapp click [here](https://marketplace-aiqyk6rbw-sor
 
 Thanks for checking our project,
 
-- [@SorinXV](https://github.com/SorinXV)
-- [@Infernus](https://github.com/Infernus007)
+- [@SorinXV](https://github.com/SorinXV) & [@Infernus](https://github.com/Infernus007)
+
