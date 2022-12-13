@@ -4,15 +4,33 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-  }
+}
 .paragraph{
     font-size:16px;
 }
-
 .h1-title{
     font-size:1.8rem;
 }
 .h2-title{
     font-size:1.3rem;
 }
+.g-background{
+    background-color: #40826D;
+}
+/*use this class for the buttons like "see more"*/
+.darkerg-background{
+    background-color: #358f71;
+}
 
+.w-background{
+    background-color: #dadaea;
+}
+.p-background{
+    background-color: #50327c;
+}
+.b-text{
+    color: black;
+}
+.p-text{
+    color: #50327c;
+}
