@@ -21,8 +21,8 @@ export default function Card({
           {description.slice(0, 69)}
         </div>
         <Link href={`/items/${title}`}>
-          <button className="card__btn | px-4 py-1 bg-green-500 text-white rounded border-none self-end hover:opacity-70">
-            see more
+          <button className="card__btn | px-4 py-1 darkerg-background text-white rounded border-none self-end hover:opacity-70">
+            Info
           </button>
         </Link>
       </>
