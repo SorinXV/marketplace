@@ -15,13 +15,13 @@
     font-size: 2.1rem;
 }
 .h2-title-home{
-    font-size:2.0rem;
+    font-size:2.2rem;
 }
 .button{
     font-size: 1.2rem;
 }
 .g-background{
-    background-color: #347460;
+    background-color: #898989;
 }
 /*use this class for the buttons like "see more"*/
 .darkerg-background{
@@ -29,13 +29,13 @@
 }
 
 .w-background{
-    background-color: #dadaea;
+    background-color: #97979d;
 }
 .p-background{
     background-color: #50327c;
 }
 .g-text{
-    color: #1a202c;
+    color: #2c3649;
 }
 .b-text{
     color: #fcfcfd;
@@ -47,10 +47,10 @@
     .h1-title-home{
         font-size:2.0rem;
     }
-    .h1-title-home{
-        font-size: 1.8rem;
+    .h2-title-home{
+        font-size: 2.0rem;
     }
     .h2-title{
-        font-size:1.7rem;
+        font-size:1.8rem;
     }
 }

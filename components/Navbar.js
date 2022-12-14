@@ -9,7 +9,7 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <li className="m-2 font-extrabold text-white ">
+              <li className="m-2 font-extrabold text-white text-lg">
                 Market<span className=" font-extrabold ">Place</span>
               </li>
             </a>
